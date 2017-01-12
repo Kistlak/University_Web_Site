@@ -39,6 +39,35 @@ include("title.php")
 	width:300px;
 	height:300px;
 }
+
+.about{
+	margin-left:50px;
+	margin-right:50px;
+	font-family: Times New Roman;
+	line-height: 180%;
+	font-size:135%;
+	text-align: left;
+	color:#353c47;
+}
+
+.btnhome {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    height:54px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+	margin-left:200px;
+	width:800px;
+}
+
+.btnhome:hover{
+    background-color: #002147;
+	color:white;
+}
 	 
 </style>
 
@@ -76,8 +105,6 @@ SLSOC offers an integrated pathway into Sri Lankan University's undergraduate de
 </p>       
             </div>
 			
-
-
 <div class="col-md-12 col-sm-6 hero-feature">
                 
                         <p>
@@ -85,6 +112,9 @@ Now You Can Join With Sri Lanka School Of Computing. Because of now we have open
 You can get further details from this Apply Now Page.
                         </p>       
             </div>
+
+<li><a href="apply.php" class="btnhome" target="_blank">Apply Now</a></li>
+
 			
         </div> <!-- End Of The Row Class -->
 
